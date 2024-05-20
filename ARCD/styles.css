@@ -1,0 +1,38 @@
+.text-bubble {
+    background-color: #52b788;
+    border-radius: 10px;
+    color: #081C15;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stButton>button {
+    background-color: #2D6A4F; /* Change background color */
+    color: #FFFFFF; /* Change text color */
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+
+.stButton>button:hover {
+    background-color: #74c69d; /* Change background color on hover */
+}
+
+.stDownloadButton>button {
+    background-color: #2D6A4F; /* Change background color */
+    color: #FFFFFF; /* Change text color */
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+
+.stDownloadButton>button:hover {
+    background-color: #74c69d; /* Change background color on hover */
+}
