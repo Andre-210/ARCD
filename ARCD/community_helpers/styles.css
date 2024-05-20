@@ -1,0 +1,149 @@
+@import url('"https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); 
+
+h1, [class*="css"] {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+}
+
+* {
+    font-family: 'Roboto', sans-serif; 
+}
+
+.st-emotion-cache-gh2jqd {
+    max-width: 90%;
+}
+
+.st-emotion-cache-1oe4q7f {
+    background-color: #2D6A4F;
+    border-radius: 16px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.st-emotion-cache-1v0mbdj img {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+/* Comments Section */
+.st-emotion-cache-1yycg8b .st-emotion-cache-0 {
+    background-color: #2D6A4F;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 24px 48px;
+    margin-top: 123px;
+}
+
+.comment-section-title {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.community-list-post {
+    background-color: #f63366;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.text-bubble {
+    width: 100%;
+    background-color: #2D6A4F; 
+    border-radius: 10px; 
+    color: #FFFFFF;
+    padding-top: 16px;
+    padding-bottom: 1px;
+    font-size: 16px; 
+    font-weight: 700;
+    text-align: center;
+}
+
+.post-card-link {
+    background-color: #B7E4C7;
+    padding: 16px 16px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    text-decoration: none;
+    color: black;
+}
+
+.tag-bubble {
+    background-color: #B7E4C7; 
+    border-radius: 10px; 
+    border: 2px solid white;
+    padding: 8px 16px; 
+    color: black; 
+    font-size: 16px; 
+    font-style: italic;
+    font-weight: 700; 
+    display: inline-block;
+}
+
+.comment {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.name {
+    margin: 0;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.name-author {
+    margin: 0;
+    color: gold;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.comment-text {
+    margin: 0;
+    color: white;
+    font-size: 16px;
+}
+
+.post-author-card {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+.post-title-card {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.post-image-card {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.post-tag-bubble-card {
+    background-color: #B7E4C7; 
+    border-radius: 10px; 
+    border: 2px solid white;
+    padding: 8px 16px; 
+    color: black; 
+    font-size: 16px; 
+    font-style: italic;
+    font-weight: 700; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
