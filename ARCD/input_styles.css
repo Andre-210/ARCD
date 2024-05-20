@@ -1,0 +1,90 @@
+@import url('"https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+[class*="css"] {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.stApp {
+    background-color: #B7E4C7;
+}
+
+/* Text for buttons */ 
+.st-emotion-cache-sh2krr p {
+    color: #081C15;
+}
+
+/* Background color for file upload section in dark mode */ 
+.st-emotion-cache-1erivf3 {
+    background-color: #2D6A4F;
+}
+
+/* background color for file upload section in light mode*/
+.st-emotion-cache-1gulkj5.e1b2p2ww15 {
+    background-color: #2D6A4F;
+}
+
+/* Background color for buttons */ 
+button[data-testid="baseButton-secondary"] {
+    background-color: #52b788;
+    color: #081C15;
+}
+
+/* when the button is active, hovered, and focused (visibly too) */ 
+button[data-testid="baseButton-secondary"]:active, 
+button[data-testid="baseButton-secondary"]:focus,
+button[data-testid="baseButton-secondary"]:focus-visible,
+button[data-testid="baseButton-secondary"]:hover {
+    background-color: #081C15 !important;
+    border-color: white !important;
+    color: white !important;
+}
+
+/* targeting all buttons that are NOT the file upload button */
+div.row-widget.stButton button[data-testid="baseButton-secondary"] {
+    width: 100%;
+}
+
+/* targeting the textbox color */
+
+.st-b1 {
+    background-color: #081C15;
+}
+
+
+/* changing the text area border color to light green*/
+
+.st-c1, .st-c2, .st-c3, .st-c4 {
+    border-color: white !important;
+}
+
+.st-c1:focus, .st-c2:focus, .st-c3:focus, .st-c4:focus {
+    border-color: white !important;
+}
+
+
+/* taking care of the right side of the column now... */
+
+/* working to change the color of the container that will have the AI output and text following along that */
+.st-emotion-cache-ocqkz7.e1f1d6gn5 > .st-emotion-cache-hwawiw.e1f1d6gn3:nth-child(3) {
+    background-color: #2D6A4F !important;
+    border-radius: 15px; /* Rounded corners */
+    border: 2px solid #000; /* Black border */
+    box-shadow: 8px 8px 20px rgba(0,0,0,0.3);
+    padding: 15px;
+    height: 750px;
+    overflow-x: hidden; /* Horizontally, we allow scrolling if needed */
+    overflow-y: auto; /* Vertically, we never want to scroll */
+}
+
+.st-emotion-cache-183lzff.exotz4b0 {
+    overflow-x: hidden !important;  /* Hide horizontal overflow */
+    overflow-y: auto !important;    /* Automatically add a scrollbar vertically if needed */
+    white-space: normal !important; /* Ensures text does not overflow and goes to the next line */
+    word-wrap: break-word !important; /* Ensures words do not break out of the container width */
+}
+
+.page-header, .description, .design-types, .file-description {
+    color: #081C15;
+}
